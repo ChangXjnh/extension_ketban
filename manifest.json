@@ -1,0 +1,22 @@
+{
+
+
+  "manifest_version": 2,
+
+  "name": "Auto kết bạn",
+  "description": "Ứng dụng sẽ giúp bạn tự động kết bạn trên facebook",
+  "version": "1.1.21",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon16.png",
+    "default_title": "Auto kết bạn"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png"
+  },
+  "permissions": [
+    "activeTab",
+    "https://*.facebook.com/"
+  ]
+}

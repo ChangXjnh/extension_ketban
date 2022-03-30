@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Extension by NgQ</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-select.css">
+	    <link rel="stylesheet" href="https://fb-store.net/theme/theme-assets/css/core/colors/palette-gradient.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-xs-12">
+        <h3 class="text-center text-primary">Extension kết bạn Facebook by NgQ</h3>
+      </div>
+      <div class="col-xs-12">
+        <div>
+          
+          <br>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <form class="form-horizontal">
+          <div class="form-group">
+           <div class="col-xs-8">
+              <span id="status-error" class="text-danger"></span>
+          <span id="status-success" class="text-primary"></span>
+            </div>
+        </div>
+
+          <div style="display:none" class="form-group">
+            <label for="inputNumber" class="col-xs-5 control-label">Tường</label>
+            <div class="col-xs-7">
+              <small id="profileName" class="text-primary">abbbbbbb</small>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputNumber" class="col-xs-4 control-label">Số status</label>
+            <div class="col-xs-8">
+              <!-- <input type="text" class="form-control" id="inputNumber" value="100" placeholder="Số status" disabled> -->
+              <input type="text" class="form-control" id="inputNumber" value="10" placeholder="Số status" >
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputNumber" class="col-xs-4 control-label">Thời gian giãn cách</label>
+            <div class="col-xs-8">
+              <label class="text-primary" for="fname">Từ(s)<input class="text-danger" style="width: 30px;height: 30px; background-color: rgba(86, 41, 194, 0.1);" value="4" type="text" id="sleep_1" name="fname"></label>
+              <label class="text-primary" for="lname">- Đến(s)<input class="text-danger" style="width: 30px;height: 30px; background-color: rgba(86, 41, 194, 0.1);" value="10" type="text" id="sleep_2" name="fname"></label>
+             
+            </div>
+          </div>
+         
+          <!-- <div style="display:none" class="form-group">
+            <label for="inputNumber" class="col-xs-5 control-label">Năm</label>
+            <div class="col-xs-7">
+              <input type="text" class="form-control" id="inputYear" placeholder="2020" data-toggle="tooltip">
+            </div>
+          </div> -->
+          <!-- <div style="display:none" class="form-group">
+            <label for="inputNumber" id="tagPopover" class="col-xs-5 control-label">Lịch sự</label>
+            <div class="col-xs-4">
+                <input type="checkbox" id="inputIgnoreTag" checked>
+            </div> -->
+          </div>
+          <div class="input-group">
+            <label style="border: 2px solid #60c38b;" class="input-group-addon">Số lần đã gửi</label>
+			<label style="border-right: 2px solid #60c38b;border-top: 2px solid #60c38b;border-bottom: 2px solid #60c38b;" class="input-group-addon" id="count">0</label>
+          </div></br>
+          <div style="display:none" class="form-group">
+            <label for="inputNumber" id="lbFriendsMsg" class="col-xs-2 control-label">Đến</label>
+            <div class="col-xs-10">
+              <select class="form-control " name="" id="inputFriendsMsg" disabled>
+                <option value="0" id="friendsMsgFirst">Đang tải...</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10"><center>
+              <button id="buttonStart" type="button" class="btn btn-glow btn-bg-gradient-x-blue-green" >Kết bạn</button>
+             <button id="buttonStop" type="button" class="btn btn-glow btn-bg-gradient-x-orange-yellow" >Dừng</button>
+              <button id="buttonContinute" type="button" class="btn btn-glow btn-bg-gradient-x-purple-red" >Tiếp tục</button>
+            </center></div>
+           
+          </div>
+         <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10"><center>
+              <button id="buttonRefresh" type="button" style="text-align: center" class="btn btn-danger" >Về trang chủ</button>
+          </center></div>
+           
+          </div>
+
+        </form>
+      </div>
+      <div id="tip">
+        <small id="tipContent" class="text-info"></small>
+      </div>
+    </div>
+    <footer id="footer" class="container">
+      <br><br>
+      <small class="pull-right text-primary">Donate to me with Momo 0376689996</small>
+    </footer>
+  </body>
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="bootstrap-select.js"></script>
+  <script src="popup.js"></script>
+</html>
+
